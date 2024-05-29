@@ -150,6 +150,7 @@ footer p{
     margin-bottom: 0;
 }
 
-footer i{
+footer a i{
     margin:0 10px 0 10px;
+    color: white;
 }
