@@ -7,10 +7,11 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: white;
     color: white;
-    padding: 1rem 0;
+    padding: 0;
     text-align: center;
+    border-bottom: 2px solid black;;
 }
 
 h1{
@@ -27,6 +28,11 @@ h2{
 h3{
     font-family: 'Courier New', Courier, monospace;  
     font-size: 34px;
+}
+
+/* Style the navigation */
+nav {
+    text-align: left; /* Align contents to the left */
 }
 
 nav ul {
@@ -46,6 +52,15 @@ nav ul li a {
 
 section {
     padding: 2rem;
+}
+
+/* Hide all sections except the first by default */
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
 }
 
 #home {
