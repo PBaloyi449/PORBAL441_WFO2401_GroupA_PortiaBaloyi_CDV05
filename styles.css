@@ -12,6 +12,11 @@ header {
     text-align: center;
 }
 
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 46px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
