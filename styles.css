@@ -213,6 +213,7 @@ footer a i{
   color: black;
   line-height: 20px; /* Align text vertically */
   padding-left: 5px; /* Space for text */
+  margin-bottom: 10px;
 }
 .html { background-color: red; width: 48.1%; }
 .css { background-color: purple; width: 46.9%; }

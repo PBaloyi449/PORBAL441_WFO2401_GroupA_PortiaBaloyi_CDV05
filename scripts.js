@@ -30,11 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Dynamically update bar widths if needed
-    document.querySelector('.html').style.width = '48.1%';
-document.querySelector('.css').style.width = '46.9%';
-document.querySelector('.js').style.width = '5.0%';
-
     // Show the first section by default
     showSection('projects');
 });
