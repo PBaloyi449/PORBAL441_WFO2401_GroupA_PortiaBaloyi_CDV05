@@ -1,5 +1,5 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Pacifico', cursive;
     font-size: large;
     margin: 0;
     padding: 0;
@@ -112,7 +112,7 @@ ul li {
 }
 
 ul i{
-   margin-left: 10px;
+   margin-left: 5px;
 }
 
 img{
@@ -132,7 +132,7 @@ img{
 a button {
     display: inline-block;
     padding: 10px 20px;
-   font-size: 15px;
+    font-size: 15px;
     background-color: #007BFF;
     color: white;
     text-decoration: none;
@@ -202,3 +202,18 @@ footer a i{
 .colorful-heading {
     animation: moveRight 10s linear infinite;
 }
+
+.chart {
+    display: flex;
+    background-color: #f8f8f8; 
+}
+
+.bar {
+  height: 20px;
+  color: black;
+  line-height: 20px; /* Align text vertically */
+  padding-left: 5px; /* Space for text */
+}
+.html { background-color: red; width: 48.1%; }
+.css { background-color: purple; width: 46.9%; }
+.js { background-color: yellow; width: 5.0%; }
