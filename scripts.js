@@ -2,10 +2,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const colors = ['red', 'blue', 'green', 'purple', 'orange', 'yellow', 'pink'];
     let currentColorIndex = 0;
 
-    const heading = document.getElementById('colorful-heading');
+    const headings = document.querySelectorAll('.colorful-heading'); // Corrected selector
 
     setInterval(function() {
-        heading.style.color = colors[currentColorIndex];
+        headings.forEach(heading => {
+            heading.style.color = colors[currentColorIndex];
+        });
         currentColorIndex = (currentColorIndex + 1) % colors.length;
     }, 1000); // 1000 milliseconds = 1 second
 
@@ -16,10 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function showSection(sectionId) {
         sections.forEach(section => {
             section.classList.remove('active');
-            if (section.id === sectionId) {
-                section.classList.add('active');
-            }
         });
+        document.getElementById(sectionId).classList.add('active');
     }
 
     navLinks.forEach(link => {
@@ -31,5 +31,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Show the first section by default
-    showSection('home');
+    showSection('about');
 });

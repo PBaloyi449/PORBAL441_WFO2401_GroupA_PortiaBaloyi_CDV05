@@ -22,7 +22,7 @@ h1{
 
 h2{
     font-family: 'Courier New', Courier, monospace;  
-    font-size: 40px;
+    font-size: 60px;
 }
 
 h3{
@@ -62,20 +62,32 @@ section {
 .section.active {
     display: block;
 }
-
-#home {
+#home{
     background-color: white;
     text-align: center;
     color: black;
 }
 
-#home img {
-    width: 100%; /* Set the width to 100% to make it responsive */
-    max-width: 400px; /* Set a maximum width to prevent the image from stretching too much on larger screens */
-    display: block; /* Make sure the image behaves like a block element */
-    margin: 0 auto; /* Center the image horizontally */
-    border-radius: 8px; /* Add some border radius for rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    margin: 2em 0;
+}
+
+.about-container img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 40px ;
+}
+
+.about-text {
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+    max-width: 800px;
+    text-align: left;
 }
 
 #about, #projects, #contact {
@@ -187,6 +199,6 @@ footer a i{
     100% { transform: translateX(100%); }
 }
 
-#colorful-heading {
+.colorful-heading {
     animation: moveRight 10s linear infinite;
 }

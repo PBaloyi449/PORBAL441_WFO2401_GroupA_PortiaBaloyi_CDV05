@@ -12,10 +12,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#home" class="nav-link" data-section="home">Home</a></li>
-                    <li><a href="#about" class="nav-link" data-section="about">About</a></li>
-                    <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
-                    <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -26,10 +26,14 @@
         </h1>
     </section>
     <section id="about" class="section">
-        <img src="Assets/HB.jpeg">
-        <h2>About Me</h2>
-        <p>Hi there! I'm Portia Baloyi, a passionate aspiring front-end web developer based in Johannesburg, South Africa. With a Diploma in Accountancy and a Higher certificate in Banking, I bring a unique blend of analytical skills and attention to detail to the tech world. My journey into web development is fueled by a desire to create intuitive and user-friendly web experiences.</p>
-        <h2>Skills</h2>
+        <h2 class="colorful-heading">About Me</h2>
+        <div class="about-container">
+            <img src="Assets/HB.jpeg">
+            <div class="about-text">
+                <p>Hi there! I'm Portia Baloyi, a passionate aspiring front-end web developer based in Johannesburg, South Africa. With a Diploma in Accountancy and a Higher certificate in Banking, I bring a unique blend of analytical skills and attention to detail to the tech world. My journey into web development is fueled by a desire to create intuitive and user-friendly web experiences.</p>
+            </div>
+        </div>
+        <h2 class="colorful-heading">Skills</h2>
         <ul>
             <i class="fa-brands fa-html5 fa-5x"></i>
             <i class="fa-brands fa-css3 fa-5x"></i>
@@ -57,7 +61,7 @@
     </section>
 
     <section id="projects" class="section">
-        <h2>Projects</h2>
+        <h2 class="colorful-heading">Projects</h2>
         <div class="project">
             <h3>Cache Bank Business Landing Page</h3>
             <p>Creating a responsive business landing page for a fictitious banking solution, Cache Bank, targeted at software developers.</p>
@@ -85,7 +89,7 @@
     </section>
 
     <section id="contact" class="section">
-        <h2>Get in Touch</h2>
+        <h2 class="colorful-heading">Get in Touch</h2>
         <form action="mailto:pbaloyi449@gmail.com" method="post" enctype="text/plain">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -116,7 +120,7 @@
         <p>&copy; 2024 Portia Baloyi</p>
         
     </footer>
-</section>
+    </section>
 
     <script src="scripts.js"></script>
 </body>
