@@ -179,9 +179,11 @@ footer {
     padding: 1rem 0;
     background-color: #333;
     color: white;
-    /*position: fixed; /* Change position to fixed */
+    position: fixed; /* Set position to fixed */
     width: 100%;
     bottom: 0;
+    left: 0; /* Align to the left edge of the viewport */
+    right: 0; /* Align to the right edge of the viewport */
 }
 
 /* Style the footer content */
@@ -214,6 +216,7 @@ footer a i{
   line-height: 20px; /* Align text vertically */
   padding-left: 5px; /* Space for text */
   margin-bottom: 10px;
+
 }
 .html { background-color: red; width: 48.1%; }
 .css { background-color: purple; width: 46.9%; }
